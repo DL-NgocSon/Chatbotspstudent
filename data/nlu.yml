@@ -1,0 +1,113 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Xin chào.
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: bot_sp_KTX
+  examples: |
+    - Cho em hỏi sau khi nộp tiền xong, em có phải chụp biên lại đóng tiền gửi lại không ạ?
+    - Cho em hỏi sau khi được duyệt đăng ký nội trú thì đóng tiền chỗ nào và như thế nào ạ?
+    - Làm sao để biết mình đã đăng kí ký túc xá thành công hay chưa ạ?
+    - Làm sao để tra thông tin phòng ký túc xá mình đã đăng kí ạ?
+    - Cho em hỏi bây giờ đăng ký nội trú  được không ạ?
+    - Cho e hỏi đóng tiền KTX là dóng chung với học phí đúng không ạ?
+    - Cho em hỏi quần áo sinh viên tự giặt hay có máy giặt ạ?
+    - Thời gian đóng mở cửa ký túc xá vào giờ nào ạ?
+    - Cho em hỏi đăng ký ở KTX 4 năm được không hay mỗi năm đăng ký 1 lần?
+    - Cho em hỏi sau khi đã đăng ký phòng nội trú xong, em có thể liên hệ văn phòng ktx để đổi phòng được không ạ ?
+    - Cho em hỏi phòng Chất lượng cao khác các phòng khác như thế nào?
+    - Cho em hỏi phòng 8 người ở KTX 7 tầng có thể ở ít người hơn thì tính tiền như thế nào?
+    - Cho em hỏi tân sinh viên muốn đăng kí ở kí túc xá thì làm sao ạ?
+    - Kí túc xá có những loại phòng nào và giá mỗi phòng là bao nhiêu ạ
+    - Cho em hỏi ở KTX có căn tin không ạ?
+    - Cho em hỏi ở KTX có các dịch vụ thể dục thể thao gì không?
+    - Ở KTX có được nấu ăn không?
+    - SV có được tiếp khách trong phòng không?
